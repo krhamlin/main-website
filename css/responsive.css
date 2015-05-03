@@ -38,6 +38,13 @@ MEDIA QUERIES
 		margin: 0 5% 80px 0;
 	}
 
+	#schedule {
+	color: #6ab47b;
+	text-align: center;
+	line-height: 1em;
+	font-size: 1.5em;
+}
+
 }
 
 
@@ -51,16 +58,16 @@ MEDIA QUERIES
 		background: none;
 		float: right;
 		font-size: 1.5em;
-		margin-right: 5%;
+		margin-right: 2%;
 		text-align: right;
-		width: 45%;
+		width: 65%;
 	}
 
 	#logo {
 		float: left;
 		margin-left: 
 		text-align: left;
-		width: 45%;
+		width: 30%;
 	}
 
 	h1 {
@@ -80,7 +87,13 @@ MEDIA QUERIES
 	p {
 		font-size: 1.25em;
 	}
+
+	iframe {
+		width: 100%;
+		margin: 0 auto;
+	}
 }
+
 
 
 

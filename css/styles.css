@@ -31,6 +31,16 @@ h3 {
 	margin: 0 0 1em 0;
 }
 
+#welcome {
+	color: #6ab47b;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#main {
+	margin-top: -15px;
+}
+
 /****************
 HEADING STYLES
 ****************/
@@ -209,7 +219,18 @@ nav a.selected, nav a:hover {
 	color: #32673f;
 }
 
+iframe {
+	width: 100%;
+	max-width: 100%;
+	height: 700px;
+}
 
-
-
+#schedule {
+	color: #6ab47b;
+	text-align: center;
+	line-height: 1em;
+	font-size: 1.5em;
+	padding-bottom: 1em;
+	text-decoration: underline;
+}
 
