@@ -8,9 +8,9 @@ body {
 
 /* HTML */
 #wrapper {
-	max-width: 940px;
+	max-width: 1000px;
 	margin: 0 auto;
-	padding: 0 5%;
+	padding: 20px 5%;
 	font-size: 1.3em;
 }
 
@@ -47,14 +47,20 @@ HEADING STYLES
 
 header {
 	float: left;
-	margin: 0 0 30px 0;
+	margin: -20px 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
 }
 
 #logo {
-	text-align: center;
-	margin: 0;
+	text-align: left;
+}
+
+#img {
+	max-width: 86px;
+	border-radius: 20px;
+	position: absolute;
+	margin-top: 20px;
 }
 
 h1 {
@@ -69,6 +75,11 @@ h2 {
 	font-size: 2em;
 	margin: -5px 0 0;
 	font-weight: normal;
+}
+
+h1,
+h2 {
+	padding-left: 100px;
 }
 
 /****************
@@ -113,31 +124,6 @@ footer {
 	width: 30px;
 	height: 30px;
 	margin: 0 5px;
-}
-
-/****************
-PAGE: PORTFOLIO STYLES
-****************/
-
-#gallery {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#gallery li {
-	float: left;
-	width: 45%;
-	margin: 2.5%;
-	background-color: #f5f5f5;
-	color: #aaa;
-}
-
-#gallery li a p {
-	margin: 0;
-	padding: 5%;
-	font-size: 1em;
-	color: #aaa;
 }
 
 /****************
@@ -217,24 +203,5 @@ nav a, nav a:visited {
 /* Selected Nav Links */
 nav a.selected, nav a:hover {
 	color: #32673f;
-}
-
-iframe {
-	width: 100%;
-	max-width: 100%;
-	height: 700px;
-}
-
-#schedule {
-	color: #6ab47b;
-	text-align: center;
-	line-height: 1em;
-	font-size: 1.5em;
-	padding-bottom: 1em;
-	text-decoration: underline;
-}
-
-.schedule {
-	text-align: center;
 }
 

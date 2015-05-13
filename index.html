@@ -5,6 +5,7 @@
 		<title>Kyle Hamlin | Student</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Bree+Serif' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,27 +29,31 @@
 		<meta name="msapplication-TileColor" content="#00aba9">
 		<meta name="msapplication-TileImage" content="mstile-144x144.png">
 		<meta name="theme-color" content="#6ab47b">
+		<meta name="viewport" content="width=device-width">
 	</head>
 	<body>
-		<header id="main">
-			<a href="index.html" id="logo">
+		<header class="grid-container">
+			<a href="index.html" id="logo" class="grid-4">
+				<img src="img/logo_kh.jpg" alt="logo" id="img">
 				<h1>Kyle Hamlin</h1>
-				<h2>Student | Community Advisor</h2>
+				<h2>Student | Professional</h2>
 			</a>
-			<nav>
+			<nav class="grid-8">
 				<ul>
 					<li><a href="index.html" class="selected">Main</a></li>
-					<li><a href="photos.html">Photos</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="schedule.html">Schedule</a></li>
+					<li><a href="resume.html">Resume</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 		<div id="wrapper">
-			<section>
-				<h1 id="welcome">Welcome to my website.</h1><hr>
-				<h1 id="welcome">Have a look around and enjoy!</h1>
+			<section class="grid-container">
+				<h4 id="welcome" class="grid-12">Welcome to my website.</h4>
+				<h4 id="welcome" class="grid-4">About Me</h4>
+				<h4 id="welcome" class="grid-4">Resume</h4>
+				<h4 id="welcome" class="grid-4">Contact</h4>
+				<h4 class="grid-0"></h4>
 			</section>
 		</div>
 		<footer>
